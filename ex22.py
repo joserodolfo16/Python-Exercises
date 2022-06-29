@@ -1,0 +1,6 @@
+nome = str(input('Diga seu nome completo: ')).strip()
+print(nome.upper())
+print(nome.lower())
+print(len(nome)-nome.count(' '))
+nomesep = nome.split()
+print('O primeiro nome tem', len(nomesep[0]), 'letras.')
